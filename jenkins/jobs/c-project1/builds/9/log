@@ -1,0 +1,35 @@
+Started by user [8mha:////4HfNcNrXVoRg/TskX8LJ+KvyPTcFO6OckpJqdmeXWppqAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZu/dLi1CL93NT0jEQAfDNlfMAAAAA=[0mMegha N
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-project1
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/MeghaN2025/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/MeghaN2025/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.1'
+ > git fetch --tags --force --progress -- https://github.com/MeghaN2025/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 74229e481ef30f018878277d6a29b675d857f1f0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 74229e481ef30f018878277d6a29b675d857f1f0 # timeout=10
+Commit message: "Create temp1"
+ > git rev-list --no-walk 68b5e51da15936edc1974110cd8bd06776d0496a # timeout=10
+[c-project1] $ /bin/sh -xe /tmp/jenkins15463454288667002845.sh
++ ls /var/lib/jenkins/workspace/c-project1
+ABC.exe
+Makefile
+backup_logs.sh
+big.c
+big.o
+fact.c
+fact.o
+main.c
+main.o
+temp
+temp1
+test
++ make
+make: Nothing to be done for 'all'.
+Finished: SUCCESS

@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.Queue_-State>
+  <items>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>megha</userId>
+              </hudson.model.Cause_-UserIdCause>
+              <int>1</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>18</id>
+      <task class="hudson.model.FreeStyleProject">c-project1</task>
+      <inQueueSince>1751555156072</inQueueSince>
+      <buildableStartMilliseconds>1751555156073</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+  </items>
+  <properties>
+    <entry>
+      <string>jenkins.model.queue.QueueIdStrategy$DefaultStrategy</string>
+      <long>19</long>
+    </entry>
+  </properties>
+</hudson.model.Queue_-State>

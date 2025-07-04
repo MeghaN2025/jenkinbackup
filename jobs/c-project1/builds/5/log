@@ -1,0 +1,34 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-project1
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/MeghaN2025/c-project.git # timeout=10
+Fetching upstream changes from https://github.com/MeghaN2025/c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.1'
+ > git fetch --tags --force --progress -- https://github.com/MeghaN2025/c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 68b5e51da15936edc1974110cd8bd06776d0496a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 68b5e51da15936edc1974110cd8bd06776d0496a # timeout=10
+Commit message: "new backuplog file added"
+ > git rev-list --no-walk 68b5e51da15936edc1974110cd8bd06776d0496a # timeout=10
+[c-project1] $ /bin/sh -xe /tmp/jenkins17891798506093357550.sh
++ ls /var/lib/jenkins/workspace/c-project1
+ABC.exe
+Makefile
+backup_logs.sh
+big.c
+big.o
+fact.c
+fact.o
+main.c
+main.o
+temp
+test
++ make
+make: Nothing to be done for 'all'.
+Finished: SUCCESS
