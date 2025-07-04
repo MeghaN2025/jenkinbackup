@@ -1,0 +1,7 @@
+jenkins/.java/
+jenkins/secrets/
+jenkins/users/
+jenkins/workspace/
+jenkins/.ssh/
+logs/
+
